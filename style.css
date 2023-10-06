@@ -1,0 +1,60 @@
+#productos{
+    display: flex;
+    flex-direction: row;
+    margin: 12px;
+}
+
+.card{
+    margin: 10px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-img-top{
+    height: 210px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: end    ;
+}
+
+.btn-primary2{
+    width: auto;
+    margin: 10px;
+    position: fixed;
+}
+
+#cantidadProductos{
+    margin: 10px;
+    text-align: center;
+    font-size: 13px;
+    height: 15px;
+    position: relative;
+    position: fixed;
+    border-radius: 50px;
+    background-color: yellow;
+    border: solid 1px black;
+}
+
+#productos{
+    display: flex;
+    flex-wrap: wrap ;
+
+}
+
+.boton-quitar{
+    background-color: rgb(144, 144, 243);
+    border-radius: 10px;
+}
+
+.btnQuitar{
+    color: black;
+    text-decoration: none;
+}
+
