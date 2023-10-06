@@ -24,13 +24,13 @@ class BaseDeDatos{
         this.agregarRegistro(3, "Mermelada La Tranquilina", 1400, "Celiaco", "la_tranquilina.webp");
         this.agregarRegistro(4, "Avena Instantanea", 1150, "Proteica", "avena.jpg");
         this.agregarRegistro(5, "Fideos Integrales", 1100, "Proteica", "fideos integrales.jpg");
-        this.agregarRegistro(6, "Fideos Integrales", 1100, "Proteica", "fideos integrales.jpg");
-        this.agregarRegistro(7, "Fideos Integrales", 1100, "Proteica", "fideos integrales.jpg");
-        this.agregarRegistro(8, "Fideos Integrales", 1100, "Proteica", "fideos integrales.jpg");
-        this.agregarRegistro(9, "Fideos Integrales", 1100, "Proteica", "fideos integrales.jpg");
-        this.agregarRegistro(10, "Fideos Integrales", 1100, "Proteica", "fideos integrales.jpg");
-        this.agregarRegistro(10, "Fideos Integrales", 1100, "Proteica", "fideos integrales.jpg");
-        this.agregarRegistro(10, "Fideos Integrales", 1100, "Proteica", "fideos integrales.jpg");
+        this.agregarRegistro(6, "Barrita proteica ENA", 650, "Proteica", "barrita-proteica.jpg");
+        this.agregarRegistro(7, "Pasas de uva negras", 280, "Proteica", "pasa-negra.jpg");
+        this.agregarRegistro(8, "Pasas de uva rubias", 260, "Proteica", "pasa-rubia.jpg");
+        this.agregarRegistro(9, "Almendra con chocolate", 1200, "Proteica", "almendra-con-chocolate.jpg");
+        this.agregarRegistro(10, "Mani tostado sin sal", 200, "Proteica", "mani-sin-sal.jpg");
+        this.agregarRegistro(10, "Pistachos", 1190, "Proteica", "pistachos.jpg");
+        this.agregarRegistro(10, "Castañas de Caju", 980, "Proteica", "castañas.jpg");
     }//Metodo que nos crea el objeto producto y lo agrega al Array
     agregarRegistro(id, nombre, precio, categoria, imagen){
         const producto = new Producto(id, nombre, precio, categoria, imagen);
